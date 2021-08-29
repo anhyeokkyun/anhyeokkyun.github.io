@@ -69,7 +69,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Project</h2>
+                    <h2 class="heading">Summary</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
@@ -90,19 +90,18 @@
     <!-- End #about -->
 
     <div id="process" class="background-alt">
-        <h2 class="heading">Process</h2>
+        <h2 class="heading">August 2021</h2>
         <div id="experience-timeline">
-            <div data-date="1st Week, August 2021">
+            <div data-date="1st Week">
                 <h3>프로젝트 계획 수립, 개발 환경 구축</h3>
                 <h4>#VMWare #CentOS #Jeus #WebtoB #Oracle</h4>
                 <p>
-		    프로젝트 진행 세분화 및 작업 분담 및 배정, 테이블 스키마 정의, 데이터 전처리에 소요될 시스템 리소스를 감안하여 데이터 가공 방식 결정, 
-		    input data의 범위와 기준 및 처리 절차 설정 머신러닝 가이드북 및 기계학습 관련 웹 자료 참고, 
-		    여러 VM 환경에 WAS, WS, DB 등 개발 미들웨어 설치 및 연동, Python - JSP(Java, Web) 간 인터페이스 환경구축 등
+		    프로젝트 진행 세분화 및 업무 배정, 테이블 스키마 정의, 시스템 리소스를 감안하여 데이터 가공 방식 결정, 
+		    input data의 범위와 기준 및 처리 절차 설정 머신러닝 가이드북 및 기계학습 관련 웹 자료 참고 등 사전 작업 착수
                 </p>
             </div>
 
-            <div data-date="2nd Week, August 2021">
+            <div data-date="2nd Week">
                 <h3>프로토타입 개발 돌입</h3>
                 <h4>#3-Tier #MVC2 #Flask #InstantClient</h4>
                 <p>
@@ -111,7 +110,7 @@
                 </p>
             </div>
 
-            <div data-date="3rd Week, August 2021">
+            <div data-date="3rd Week">
                 <h3>기능 보완, 강화 및 프로젝트 종료</h3>
                 <h4>#deploy #presentation #debug #feedback</h4>
                 <p>
@@ -128,13 +127,13 @@
         <div class="education-block">
             <h3>Cloud, MW, DBMS</h3>
             <span class="education-date">Jul 2021 - Aug 2021</span>
-            <h4>TmaxSoft DB Engineering Administrator Course</h4>
+            <h4>Tmaxsoft DB Engineering Administrator Course</h4>
             <ul>
                 <li>
-                    Cloud(황우상): Learning Doker, Kubernetes and HyperCloud
+                    Cloud(황우상): VM, Container; Learning Doker, Kubernetes and HyperCloud
                 </li>
                 <li>
-                    MW(정상빈): Jeus 8 Administration Training and Practice
+                    MW(정상빈): Jeus 8, WebtoB 5 Administration Training and Practice
                 </li>
                 <li>
                     DBMS(김범석): Tibero Architecture, DB Administration, Backup and Recovery
@@ -144,12 +143,12 @@
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
+            <h3>Computational Thinking and SW Introduction</h3>
             <span class="education-date">May 2021 - Jun 2021</span>
             <h4>Tmaxsoft DB Engineering Administrator Course</h4>
             <p>
-                Bigdata(Python; 마진), AI(C; 정호일), Database(SQL; 유현성), Coding(Java; 박민재), Web(JSP, Servlet; 김지예) 등
-		Computational Thinking(컴퓨팅 사고력)과 Software의 이해를 통해 Professional Service 전문인력으로의 기초를 학습
+                Bigdata(Python; 마진), AI(C; 정호일), Database(SQL; 유현성), Coding(Java; 박민재), Web(JSP, Servlet; 김지예) 등 
+		컴퓨팅 사고력과 소프트웨어의 이해를 통해 Professional Service 전문인력으로의 기초를 학습
             </p>
         </div>
         <!-- End .education-block -->
@@ -162,15 +161,18 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project01.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Data Analysis Model</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            핵심이 되는 raw data는 사출 공정이 끝난 직후 제품을 촬영한 열화상 이미지의 온도 데이터와 
+			    양/불량 판정의 기준이 될 라벨 데이터 역할을 할, 검수 담당자가 수기 기록한 완제품의 두께 정보로 이루어져 있습니다. 
+			    이 1차 가공 데이터에서 열화상 이미지 데이터에는 관심영역을 설정, 라벨 파일에는 양품(1)과 불량품(0)으로 tagging해 2차 가공, 
+			    이렇게 처리된 데이터를 학습시킨 모델에 임의 shuffle된 dataset을 input하면 제품의 양/불량 여부를 알 수 있게 됩니다.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/anhyeokkyun/DBA_TIProject/tree/main/TIDataML">View Source</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -178,15 +180,18 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project02.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Web Application</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            WebtoB와 Jeus에 올라갈 이 애플리케이션은 관리자 로그인 기능과 불량품 정보를 알려주는 기능(관리자 처리)을 포함합니다. 
+			    로그인 UI는 ID값을 기본키로 하는 '관리자DB'를 통해 요청을 처리하고, 불량품의 정보가 기록된 로그 파일을 생성하여 
+			    관리자 이메일로 전송시켜주는 기능은 관리자 처리 UI에서 확인토록 하였습니다. 
+			    또 관리자 처리 UI에서는 이 로그정보를 토대로 불량품 데이터만을 폐기(삭제)시킬 수도 있습니다.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/anhyeokkyun/DBA_TIProject/tree/main/tiproject">View Source</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -199,32 +204,17 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
+            <li>Flask</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>JSP</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Jeus</li>
+            <li>WebtoB</li>
+            <li>Oracle</li>
+            <li>VMWare</li>
+            <li>CentOS</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -232,7 +222,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/anhyeokkyun@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -248,7 +238,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2021 An, HyeokKyun
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -259,22 +249,7 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://github.com/anhyeokkyun/DBA_TIProject" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
