@@ -28,7 +28,7 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
+                <a href="#process">Process</a>
             </li>
             <li>
                 <a href="#education">Education</a>
@@ -48,8 +48,8 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>열화상 데이터를 통한 양/불량 판정 프로그램</h1>
-            <h2>윈드실드 사이드 몰딩</h2>
+            <h1>Tmax Smartfactory Project</h1>
+            <h2>TI Data Analysis Program</h2>
             <a href="https://github.com/anhyeokkyun/DBA_TIProject/raw/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EB%A7%A4%EB%89%B4%EC%96%BC%20%EA%B0%80%EC%9D%B4%EB%93%9C(TI_Project%20Manual%20Guide).pdf" class="btn-rounded-white">Download Guide</a>
         </div>
         <!-- End #lead-content -->
@@ -69,13 +69,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading">About Project</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+			Windshield Side Moulding이란, 차 앞유리와 차체 사이에서 상호 결착과 방수 및 방진 등의 역할을 하는 자동차 부품의 일종입니다.
+			기본 공정은 가스 사출 생산 방식이며, 액상의 고분자 화합물을 고압의 가스와 함께 틀 안으로 흘려보내 내부가 빈 제품을 만들게 되는데
+			이때 가스 성형의 특성 상 제품두께나 내부 공간을 완벽하게 일치시키기 어렵기 때문에 완제품의 양/불량 판정은 공정에서 필수적인 과정입니다.
+			저희 프로젝트는 이를 위해 열화상 이미지를 input으로 받고, 머신러닝으로 학습된 모델을 통해 양품과 불량품을 예측해 결과를 출력하는 프로그램입니다.
+			기존에는 사출 100회 마다 1개씩 직접 잘라 육안으로 확인하는 파괴검사를 진행하여 불량이 발생하면 해당 사출품을 모두 폐기하거나 재활용하는 등,
+			시간과 자원에서 효율이 떨어지는 한계가 있었습니다. 저희의 스마트팩토리 프로젝트는 제품의 수지가 완전히 굳기 전에 단면 온도를 측정하면
+			제품에 쓰인 고분자와 가스가 일률적으로 분포되었는지와 같은 수율 정보를 미리 파악 및 예측할 수 있다는 원리에서 아이디어를 착안하였습니다.
+			제품 성형 직후에 열화상 이미지를 취득해 머신 비전 기술을 적용하면 검수제품을 일일히 파괴하거나 검사 단위에 해당하는 완제품을
+			모두 폐기해야하는 과정(비파괴검사)을 생략하고 양/불량 여부를 즉시 판정하는 공정 개선이 이루어 질 수 있다는 데에 그 의의가 있습니다.
                     </p>
                 </div>
             </div>
@@ -83,30 +89,34 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+    <div id="process" class="background-alt">
+        <h2 class="heading">Process</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="1st Week, August 2021">
+                <h3>프로젝트 계획 수립, 개발 환경 구축</h3>
+                <h4>#VMWare #CentOS #Jeus #WebtoB #Oracle</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+		    프로젝트 진행 세분화 및 작업 분담 및 배정, 테이블 스키마 정의, 데이터 전처리에 소요될 시스템 리소스를 감안하여 데이터 가공 방식 결정, 
+		    input data의 범위와 기준 및 처리 절차 설정 머신러닝 가이드북 및 기계학습 관련 웹 자료 참고, 
+		    여러 VM 환경에 WAS, WS, DB 등 개발 미들웨어 설치 및 연동, Python - JSP(Java, Web) 간 인터페이스 환경구축 등
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="2nd Week, August 2021">
+                <h3>프로토타입 개발 돌입</h3>
+                <h4>#3-Tier #MVC2 #Flask #InstantClient</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+		    DB 구조 구축, WAS(Jeus 8) - DB(Oracle Database) 연동, MVC 2 패턴 기반 웹 애플리케이션 기능 구현(JSP, Python, 등)과 같이 
+		    실제 응용 프로그램이 동작할 수 있는 실질적인 개발과 연동에 주력
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="3rd Week, August 2021">
+                <h3>기능 보완, 강화 및 프로젝트 종료</h3>
+                <h4>#deploy #presentation #debug #feedback</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    공정횟수 기능, 대시보드 시각화 차트 구현 등 실시간 공정 정보 추가, web view(CSS, HTML) 개선, 
+		    exception catch, trouble shooting 등을 통한 전반적인 기능의 보완 및 수정, 최종 배포 및 alpha version 발표
                 </p>
             </div>
         </div>
@@ -116,30 +126,31 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
+            <h3>Cloud, MW, DBMS</h3>
+            <span class="education-date">Jul 2021 - Aug 2021</span>
+            <h4>TmaxSoft DB Engineering Administrator Course</h4>
+            <ul>
+                <li>
+                    Cloud(황우상): Learning Doker, Kubernetes and HyperCloud
+                </li>
+                <li>
+                    MW(정상빈): Jeus 8 Administration Training and Practice
+                </li>
+                <li>
+                    DBMS(김범석): Tibero Architecture, DB Administration, Backup and Recovery
+                </li>
+            </ul>
         </div>
         <!-- End .education-block -->
 
         <div class="education-block">
             <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <span class="education-date">May 2021 - Jun 2021</span>
+            <h4>Tmaxsoft DB Engineering Administrator Course</h4>
+            <p>
+                Bigdata(Python; 마진), AI(C; 정호일), Database(SQL; 유현성), Coding(Java; 박민재), Web(JSP, Servlet; 김지예) 등
+		Computational Thinking(컴퓨팅 사고력)과 Software의 이해를 통해 Professional Service 전문인력으로의 기초를 학습
+            </p>
         </div>
         <!-- End .education-block -->
     </div>
