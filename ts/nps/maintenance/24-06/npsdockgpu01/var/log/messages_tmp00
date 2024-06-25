@@ -1,0 +1,31 @@
+Jun 19 15:06:35 npsdockgpu01 dockerd: time="2024-06-19T15:06:35.821269290+09:00" level=error msg="Can't add file /var/lib/docker/tmp/docker-export-436677586/025da0538c967c9a336995a46168e4f6272ee14d967b708e9a28cfd1e4931a48/layer.tar to tar: io: read/write on closed pipe"
+Jun 19 15:06:35 npsdockgpu01 dockerd: time="2024-06-19T15:06:35.821364338+09:00" level=error msg="Can't close tar writer: io: read/write on closed pipe"
+---
+Jun 20 10:35:41 npsdockgpu01 dockerd: time="2024-06-20T10:35:41.977355944+09:00" level=error msg="Force shutdown daemon"
+---
+Jun 20 10:39:44 npsdockgpu01 dockerd: time="2024-06-20T10:39:44.100701242+09:00" level=error msg="stream copy error: reading from a closed fifo"
+Jun 20 10:39:44 npsdockgpu01 dockerd: time="2024-06-20T10:39:44.100700872+09:00" level=error msg="stream copy error: reading from a closed fifo"
+Jun 20 10:39:44 npsdockgpu01 dockerd: time="2024-06-20T10:39:44.124383618+09:00" level=error msg="stream copy error: reading from a closed fifo"
+Jun 20 10:39:44 npsdockgpu01 dockerd: time="2024-06-20T10:39:44.124394758+09:00" level=error msg="stream copy error: reading from a closed fifo"
+Jun 20 10:39:44 npsdockgpu01 dockerd: time="2024-06-20T10:39:44.124387093+09:00" level=error msg="stream copy error: reading from a closed fifo"
+Jun 20 10:39:44 npsdockgpu01 dockerd: time="2024-06-20T10:39:44.125186348+09:00" level=error msg="stream copy error: reading from a closed fifo"
+Jun 20 10:39:45 npsdockgpu01 dockerd: time="2024-06-20T10:39:45.695118039+09:00" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint 563362809d668e9cf30ec6053ca13c3dc0b7ac453ee4f80f8b76102589b3940c 219edc867c8dca73abfbf1cbb75c9242932a772c3a62eaac078d723bc0e14ede], retrying...."
+Jun 20 10:39:46 npsdockgpu01 dockerd: time="2024-06-20T10:39:46.020020227+09:00" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint 563362809d668e9cf30ec6053ca13c3dc0b7ac453ee4f80f8b76102589b3940c 7d7f3c1ebf1c8f87d5661a56ea8fb59182499a826ffebfca6d771c6da03d6a1a], retrying...."
+Jun 20 10:39:46 npsdockgpu01 dockerd: time="2024-06-20T10:39:46.333489609+09:00" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint 563362809d668e9cf30ec6053ca13c3dc0b7ac453ee4f80f8b76102589b3940c de862c6c106cae36d017131e9d676b60e0e72c81965b527041a8427231eb60d3], retrying...."
+---
+Jun 20 10:59:56 npsdockgpu01 systemd: Unit abrtd.service entered failed state.
+Jun 20 10:59:57 npsdockgpu01 systemd: abrtd.service failed.
+---
+Jun 20 13:02:42 npsdockgpu01 dockerd: time="2024-06-20T13:02:42.758306039+09:00" level=error msg="Can't add file /var/lib/docker/overlay2/95e88c9a10d50dbbe6e640f4f8f8c7ce00dc56bc32b0235f91a60fe1610a0cba/diff/run/dbus/system_bus_socket to tar: archive/tar: sockets not supported"
+Jun 20 13:02:42 npsdockgpu01 dockerd: time="2024-06-20T13:02:42.780487013+09:00" level=error msg="Can't add file /var/lib/docker/overlay2/95e88c9a10d50dbbe6e640f4f8f8c7ce00dc56bc32b0235f91a60fe1610a0cba/diff/run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_12 to tar: archive/tar: sockets not supported"
+Jun 20 13:02:42 npsdockgpu01 dockerd: time="2024-06-20T13:02:42.780567872+09:00" level=error msg="Can't add file /var/lib/docker/overlay2/95e88c9a10d50dbbe6e640f4f8f8c7ce00dc56bc32b0235f91a60fe1610a0cba/diff/run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_12 to tar: archive/tar: sockets not supported"
+Jun 20 13:02:42 npsdockgpu01 dockerd: time="2024-06-20T13:02:42.780608177+09:00" level=error msg="Can't add file /var/lib/docker/overlay2/95e88c9a10d50dbbe6e640f4f8f8c7ce00dc56bc32b0235f91a60fe1610a0cba/diff/run/xrdp/sockdir/xrdp_disconnect_display_12 to tar: archive/tar: sockets not supported"
+Jun 20 13:02:42 npsdockgpu01 dockerd: time="2024-06-20T13:02:42.780648732+09:00" level=error msg="Can't add file /var/lib/docker/overlay2/95e88c9a10d50dbbe6e640f4f8f8c7ce00dc56bc32b0235f91a60fe1610a0cba/diff/run/xrdp/sockdir/xrdp_display_12 to tar: archive/tar: sockets not supported"
+Jun 20 13:02:42 npsdockgpu01 dockerd: time="2024-06-20T13:02:42.780691133+09:00" level=error msg="Can't add file /var/lib/docker/overlay2/95e88c9a10d50dbbe6e640f4f8f8c7ce00dc56bc32b0235f91a60fe1610a0cba/diff/run/xrdp/sockdir/xrdpapi_12 to tar: archive/tar: sockets not supported"
+Jun 20 13:02:42 npsdockgpu01 dockerd: time="2024-06-20T13:02:42.995373035+09:00" level=error msg="Can't add file /var/lib/docker/overlay2/95e88c9a10d50dbbe6e640f4f8f8c7ce00dc56bc32b0235f91a60fe1610a0cba/diff/tmp/.ICE-unix/156 to tar: archive/tar: sockets not supported"
+Jun 20 13:02:42 npsdockgpu01 dockerd: time="2024-06-20T13:02:42.995494978+09:00" level=error msg="Can't add file /var/lib/docker/overlay2/95e88c9a10d50dbbe6e640f4f8f8c7ce00dc56bc32b0235f91a60fe1610a0cba/diff/tmp/.X11-unix/X12 to tar: archive/tar: sockets not supported"
+Jun 20 13:02:43 npsdockgpu01 dockerd: time="2024-06-20T13:02:43.024255477+09:00" level=error msg="Can't add file /var/lib/docker/overlay2/95e88c9a10d50dbbe6e640f4f8f8c7ce00dc56bc32b0235f91a60fe1610a0cba/diff/tmp/ssh-ooesRtRss6PH/agent.156 to tar: archive/tar: sockets not supported"
+---
+Jun 20 13:13:02 npsdockgpu01 systemd-logind[59]: Failed to get load state of suspend.target: Launch helper exited with unknown return code 1
+---
+Jun 20 13:14:08 npsdockgpu01 systemd-logind[59]: Failed to get load state of suspend.target: Launch helper exited with unknown return code 1
