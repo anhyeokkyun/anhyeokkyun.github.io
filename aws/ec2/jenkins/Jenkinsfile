@@ -16,7 +16,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
-		sshagent(credentials: ['k8s-worker01_private-key']) {
+		sshagent(credentials: ['jenkins-key']) {
 		    sh '''
 			ssh -o StrictHostKeyChecking=no root@172.21.2.171 uptime
 			scp /git/aws/ec2/jenkins/project_test02-git_pipeline.sh root@172.21.2.171:/root/
