@@ -17,7 +17,7 @@ pipeline {
         stage('execute sh') {
             steps {
                 sh "chmod 774 ./aws/ec2/jenkins/project_test02-git_pipeline.sh"
-                sh "./aws/ec2/jenkins/project_test02-git_pipeline.sh
+                sh "./aws/ec2/jenkins/project_test02-git_pipeline.sh"
             }
         }        
     }
