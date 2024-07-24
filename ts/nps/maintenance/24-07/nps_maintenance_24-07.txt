@@ -1,0 +1,16 @@
+[root@npsdockmain01 ~]# ps -ef | grep -v grep | grep defunct
+zmaint   109383 109281  0 Apr26 ?        00:00:04 [firefox] <defunct>
+1016     116549 116535  0 Apr12 ?        00:00:02 [xrdp-chansrv] <defunct>
+zmaint   165923 165821  0 May16 ?        00:05:01 [firefox] <defunct>
+zmaint   233990 233888  0 Mar25 ?        00:10:17 [firefox] <defunct>
+zmaint   307233 307211  0 Feb28 ?        00:00:00 [xrdp-chansrv] <defunct>
+[root@npsdockmain01 ~]# ls -alsh /var/log/messages
+52K -rw------- 1 root root 52K Jul 22 14:25 /var/log/messages
+[root@npsdockmain01 ~]# 
+
+[root@npsdockgpu01 ~]# ps -ef | grep -v grep | grep defunct
+tmax     222903 222892  0 Jun20 ?        00:00:01 [xrdp-chansrv] <defunct>
+tmax     223981 223964  0 Jun20 ?        00:00:00 [xrdp-chansrv] <defunct>
+[root@npsdockgpu01 ~]# ls -alsh /var/log/messages
+428K -rw------- 1 root root 421K Jul 22 14:25 /var/log/messages
+[root@npsdockgpu01 ~]#
